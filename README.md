@@ -1,3 +1,3 @@
 # README-Generate
 
-![GitHub Image]("C:\Users\Karmjeet\code\README-Generate\Image.png");
+![GitHub Image]("/README Generate/Image.png")
