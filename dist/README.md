@@ -18,7 +18,7 @@ A short and simple permissive license with conditions only requiring preservatio
 * [license](#license)
  
 #  Installation
-Clone repositery, Install inquirer, Run index.js, `node index.js` 
+Code Repositery, Intall inquirer, run index.js  
 
 
 
@@ -32,7 +32,7 @@ Usage
 
 
 ## Contribution   
-Open to suggestions on new features. 
+Open to Suggestions on new features  
 
 
 
@@ -41,4 +41,4 @@ Open to suggestions on new features.
 # Contact
 * Github :undefined
 * Linkedin :undefined
-* E-mail :karmnamol@gmail.com
+* E-mail :karmnmamol@gmail.com
