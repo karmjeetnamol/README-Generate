@@ -2,4 +2,5 @@
 ![Screenshot](/screenshot/Image.png)
 Format: ![Images to See](C:\Users\Karmjeet\code\README-Generate\screenshot\Image.png)
 
-[![Watch video](C:\Users\Karmjeet\code\README-Generate\screenshot\Video.MP4)]
+![Screenshot](/screenshot/video.mp4)
+Format: ![Watch video](C:\Users\Karmjeet\code\README-Generate\screenshot\video.mp4)
