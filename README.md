@@ -1,3 +1,3 @@
 # README-Generate
-
-![GitHub Image](/README-Generate/mage.png);
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](C:\Users\Karmjeet\code\README-Generate\Image.png)
