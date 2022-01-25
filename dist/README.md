@@ -1,5 +1,12 @@
-# hr
-![MIT](https://img.shields.io/badge/license-MIT-green)  
+# README Generate
+![MIT](https://img.shields.io/badge/license-MIT-green)
+![MIT](https://img.shields.io/badge/license-MIT-green)
+(A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+      )
+  
+# Table of Content:
+
+
 * [Name](# name)
 * [Github](#github)
 * [Link](#link)
@@ -11,21 +18,21 @@
 * [license](#license)
  
 #  Installation
-hy 
+Clone repositery, Install inquirer, Run index.js, `node index.js` 
 
 
 
 
 
 ## Usage  
-tw 
+Usage 
 
 
 
 
 
 ## Contribution   
-t4 
+Open to suggestions on new features. 
 
 
 
@@ -34,4 +41,4 @@ t4
 # Contact
 * Github :undefined
 * Linkedin :undefined
-* E-mail :qw3r
+* E-mail :karmnamol@gmail.com

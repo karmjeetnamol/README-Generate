@@ -60,8 +60,7 @@ const { title } = require('process');
         choices:["MIT","GNU","Apache","None"],
           },
       
-  ]
-  ).then(({
+  ]).then(({
        name,
        github,
        link,
@@ -79,19 +78,37 @@ const { title } = require('process');
     function renderLicenseBadge(license) {
       if(license==='MIT'){
         return `![MIT](https://img.shields.io/badge/license-MIT-green)`
+      }else if (license === 'GNU') {
+        return  `![GNU](https://img.shields.io/badge/license-gnu-brightgreen)`
+      } else if (licenseType === 'Apache') {
+        return  `![Apache](https://img.shields.io/badge/license-apache-brightgreen)`
+      } else {
+        license.license = "None"
       }
-      
+      return MIT;
+    };
+
+
+function renderLicenseLink(license) {
+      if(license==='MIT'){
+  return `![MIT](https://img.shields.io/badge/license-MIT-green)`
+      }
     }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseSection(license) {
+  if(license==='MIT'){
+    return `A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+      `
+}
+}
+const template =`# ${name}
+${renderLicenseBadge(license)}
+${renderLicenseLink(license)}
+${renderLicenseSection(license)}
+  
+# Table of Content:
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-    const template =`# ${name}
-${ renderLicenseBadge(license)}  
+
 * [Name](# name)
 * [Github](#github)
 * [Link](#link)
@@ -129,17 +146,15 @@ ${contribution}
 * E-mail :${email}`;
 
 
-    createNewFile(`./dist/README.md`,template)
+createNewFile(`./dist/README.md`,template)
   }
-  );
-
-  function createNewFile(fileName,data){
+  )
+  
+function createNewFile(fileName,data){
     fs.writeFile(fileName,data,(err)=>{
       if(err){
         console.log(err)
       }
       console.log(`Your README has been generated`);
     })
-  }
-
-
+  };
