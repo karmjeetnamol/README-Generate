@@ -109,19 +109,29 @@ ${renderLicenseSection(license)}
 # Table of Content:
 
 
-* [Name](# name)
-* [Github](#github)
-* [Link](#link)
-* [email](#email)
+* [Name](#name)
+* [Installation](#installation)
 * [Description](#description)
-* [installation](#installation)
-* [usage](#usage)
+* [Usage](#usage)
 * [Contribution](#contribution)
 * [license](#license)
+* [Contact](#contact)
  
-#  Installation
+
+# Name
+${name} 
+
+
+
+
+# Installation
 ${installation} 
 
+
+
+
+# Description
+${description}
 
 
 
@@ -136,6 +146,11 @@ ${usage}
 ## Contribution   
 ${contribution} 
 
+
+
+
+# license
+${license}
 
 
 
