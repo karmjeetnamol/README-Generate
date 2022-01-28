@@ -20,7 +20,7 @@ const { title } = require('process');
     {
       type: 'input',
       name: 'link',
-      message: 'Link to your Github profile?',
+      message: 'What is  your Github profile link?',
       validate: (value)=>{if(value){return true}else {return 'i need a value to continue'}}
     },
     {
@@ -59,6 +59,13 @@ const { title } = require('process');
         message: 'What is your repo license?',
         choices:["MIT","GNU","Apache","None"],
           },
+          {
+            type: 'input',
+            name: 'linkedin',
+            message: 'Enter linkedin username if any?',
+            validate: (value)=>{if(value){return true}else {return 'i need a value to continue'}}
+          },
+         
       
   ]).then(({
        name,
@@ -69,7 +76,6 @@ const { title } = require('process');
        installation,
        usage,
        contribution,
-       git,
        linkedin,
        license,
 
@@ -156,7 +162,7 @@ ${license}
 
 
 # Contact
-* Github :${git}
+* Github :${github}
 * Linkedin :${linkedin}
 * E-mail :${email}`;
 

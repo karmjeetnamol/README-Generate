@@ -23,26 +23,26 @@ README GENERATE
 
 
 # Installation
-Code repositery, Install inquirer, Run index.js, `node index.js` 
+The user should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module. 
 
 
 
 
 # Description
-This is Readme.
+This application was created to generate a high-quality, professional README depending on a series of questions a user answers in their command line using Node.js
 
 
 
 
 ## Usage  
-Usage 
+Use inquirer from your command line to answer questions about your project. 
 
 
 
 
 
 ## Contribution   
-Open to suggestion on new features. 
+Open to suggestions on new features. 
 
 
 
@@ -54,6 +54,6 @@ MIT
 
 
 # Contact
-* Github :undefined
-* Linkedin :undefined
+* Github :KARMJEETNAMOL
+* Linkedin :https://www.linkedin.com/
 * E-mail :karmnamol@gmail.com
